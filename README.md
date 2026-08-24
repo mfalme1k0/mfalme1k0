@@ -26,7 +26,7 @@ I'm currently focused on building software that isn't just functional, but **str
 
 # ⭐ Featured Work
 
-## 🏥 Matibabu
+## 🏥 Matibabu.
 
 ### Offline-First Electronic Medical Records
 
