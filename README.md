@@ -1,252 +1,184 @@
-# 👑 Fidel Shikokoti
+# Fidel Shikokoti
 
-<div align="center">
+### Backend Developer • Java • Spring Boot • Software Engineering
 
-### `Backend Developer • Java Engineer • Software Builder`
+I build software with a growing focus on **backend engineering, system architecture, and real-world problem solving**.
 
-**Building systems. Learning deeply. Solving real problems.**
+My development journey has taken me from web and Android applications into deeper backend development with **Java, Spring Boot, PostgreSQL, and domain-oriented design**.
 
-<br>
-
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge\&logo=openjdk\&logoColor=ED8B00)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0D1117?style=for-the-badge\&logo=springboot\&logoColor=6DB33F)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge\&logo=postgresql\&logoColor=4169E1)
-![Kotlin](https://img.shields.io/badge/Kotlin-0D1117?style=for-the-badge\&logo=kotlin\&logoColor=7F52FF)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge\&logo=linux\&logoColor=FCC624)
-
-</div>
+I'm currently focused on building software that isn't just functional, but **structured, maintainable, testable, and understandable**.
 
 ---
 
-## 👋 About Me
+## 👨🏽‍💻 What I'm About
 
-I'm a developer interested in **building useful software and understanding how it works beneath the surface**.
-
-My journey has taken me through web development, Android development, Java, Kotlin, and now deeper into **backend engineering and software architecture**.
-
-Currently, I'm focusing heavily on:
-
-* ☕ Java & Spring Boot
-* 🏗️ Clean Architecture
-* 🧩 Domain-Driven Design
-* 🗄️ PostgreSQL & database design
-* 🔌 REST APIs
-* 🧪 Testing & maintainable code
-* 🐧 Linux development
-* ⚙️ Building systems that solve real-world problems
-
-I don't just want to write code that works.
-
-**I want to understand why it works — and how to make it better.**
+* 🔭 Currently building **Matibabu**, an offline-first Electronic Medical Records platform
+* ☕ Developing backend systems with **Java and Spring Boot**
+* 🏗️ Practicing **Clean Architecture, Domain-Driven Design, and SOLID principles**
+* 🗄️ Working with **PostgreSQL, JPA, and Hibernate**
+* 🔌 Building and understanding **RESTful APIs**
+* 🧪 Improving my approach to testing and maintainable software
+* 📱 Previous experience building Android applications with **Kotlin**
+* 🌐 Experience building web applications with **JavaScript, HTML, CSS, and Bootstrap**
+* 🐧 Developing in a Linux environment with Git-based workflows
 
 ---
 
-# 🚀 What I'm Building
+# ⭐ Featured Work
 
 ## 🏥 Matibabu
 
-> **Offline-First Electronic Medical Records System**
+### Offline-First Electronic Medical Records
 
-`Java` `Spring Boot` `PostgreSQL` `JPA/Hibernate` `Clean Architecture`
+**Java · Spring Boot · PostgreSQL · JPA/Hibernate · Clean Architecture**
 
-My current flagship backend project.
+Matibabu is the project I'm currently most invested in.
 
-Matibabu is an **offline-first EMR system** designed around healthcare workflows where connectivity cannot always be guaranteed.
+It is an **offline-first EMR system** designed around healthcare workflows where reliable internet connectivity cannot always be assumed.
 
-### What I'm learning through Matibabu
+The project has pushed me beyond simply implementing features and into thinking about:
 
-* Domain-driven design
-* Clean architecture
-* Repository patterns
-* Domain models
-* Application services
+* Domain modeling
+* Use cases and application services
+* Separation of business logic from infrastructure
 * Persistence boundaries
-* PostgreSQL
-* JPA / Hibernate
-* UUIDv7
 * REST API design
-* Separation of business logic and infrastructure
+* PostgreSQL data modeling
+* JPA/Hibernate
+* UUIDv7 identifiers
+* Validation and error handling
+* Maintainable backend architecture
 
-This project has been especially valuable because it is teaching me to think about **software as a system**, rather than just individual classes.
+### Why it matters to me
 
----
+Matibabu represents an important stage in my development as an engineer.
 
-# 🧪 Other Projects
-
-### 🔐 Cypher
-
-**Java encryption & decryption project**
-
-A project exploring cryptography concepts and implementing encryption/decryption functionality in Java.
-
-`Java` `Cryptography`
+I'm moving from building individual applications toward understanding **how larger software systems should be designed, organized, and evolved**.
 
 ---
 
-### 📱 Ratibu
+## 🔐 Cypher
 
-**Android session booking application**
+### Encryption & Decryption in Java
 
-An Android application focused on session booking and scheduling.
+**Java · Cryptography**
 
-`Kotlin` `Android`
+A Java project exploring encryption and decryption concepts.
 
----
-
-### 🌐 BrighterDaze
-
-**IOC Studio web application**
-
-A web-based project built around an IOC Studio concept.
-
-`JavaScript` `Web Development`
+This project reflects my interest in understanding not only application development, but also some of the underlying concepts that make software systems secure.
 
 ---
 
-### 🏠 Nyumbani
+## 📱 Ratibu
 
-**Real-estate website**
+### Android Session Booking Application
 
-A web project focused on presenting real-estate/property information.
+**Kotlin · Android**
 
-`JavaScript` `Web Development`
+An Android application focused on session booking.
 
----
-
-### 💻 Sik0-Tech
-
-**Technology website**
-
-A technology-focused website built during my earlier web-development work.
-
-`HTML` `CSS` `Bootstrap`
+One of the projects that contributed to my experience with mobile development and Kotlin before my increasing focus on backend engineering.
 
 ---
 
-### 🏡 PrimeHaven
+## 🌐 Web Projects
 
-**Web development project**
+I've also built several web applications and websites, including:
 
-A website built using fundamental frontend technologies.
+| Project          | Focus                              |
+| ---------------- | ---------------------------------- |
+| **BrighterDaze** | IOC Studio web application         |
+| **Nyumbani**     | Real-estate website                |
+| **PrimeHaven**   | HTML/CSS/Bootstrap web development |
+| **Sik0-Tech**    | Technology website                 |
+| **Biz**          | Web application                    |
 
-`HTML` `CSS` `Bootstrap`
-
----
-
-### 🧩 Kiza 1.0
-
-**Android application**
-
-An Android application developed using Kotlin.
-
-`Kotlin` `Android`
+These projects gave me a foundation in frontend development and helped me understand the other side of the systems that I'm now increasingly building on the backend.
 
 ---
 
-### 📚 Kotlin Basics
-
-A collection of Kotlin learning and practice exercises.
-
-`Kotlin`
-
----
-
-# 🛠️ My Stack
+# 🧰 Technical Skills
 
 ### Backend
 
-```text
-Java
-Spring Boot
-Spring Data JPA
-Hibernate
-REST APIs
-Maven
-```
+`Java` `Spring Boot` `Spring Data JPA` `Hibernate` `REST APIs` `Maven`
+
+### Architecture & Engineering
+
+`Clean Architecture` `Domain-Driven Design` `SOLID` `Separation of Concerns` `Repository Pattern` `Application Services`
 
 ### Databases
 
-```text
-PostgreSQL
-SQL
-JPA / Hibernate
-Database Design
-```
+`PostgreSQL` `SQL` `JPA` `Hibernate` `Database Design`
 
 ### Mobile
 
-```text
-Kotlin
-Android
-```
+`Kotlin` `Android`
 
-### Frontend
+### Web
 
-```text
-HTML
-CSS
-JavaScript
-Bootstrap
-```
+`JavaScript` `HTML` `CSS` `Bootstrap`
 
-### Tools
+### Development Tools
 
-```text
-Git
-GitHub
-IntelliJ IDEA
-Linux
-Postman
-Maven
-```
+`Git` `GitHub` `IntelliJ IDEA` `Linux` `Postman`
 
 ---
 
-# 🧠 Architecture I'm Learning
+# 🏗️ How I Think About Backend Systems
 
-One of the biggest things I'm currently working on is understanding **how to structure applications properly**.
+I'm particularly interested in keeping **business logic independent from frameworks and infrastructure**.
+
+A simplified representation of the architecture I'm practicing:
 
 ```text
-                    ┌──────────────────────┐
-                    │       REST API       │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   APPLICATION LAYER  │
-                    │                      │
-                    │ Use Cases / Services │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │     DOMAIN LAYER     │
-                    │                      │
-                    │ Entities / Rules     │
-                    │ Value Objects        │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │  INFRASTRUCTURE      │
-                    │                      │
-                    │ PostgreSQL / JPA     │
-                    │ External Services    │
-                    └──────────────────────┘
+                         CLIENT
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │   REST API   │
+                    └──────┬───────┘
+                           │
+                           ▼
+                 ┌──────────────────┐
+                 │   APPLICATION     │
+                 │                  │
+                 │    Use Cases     │
+                 │    Services      │
+                 └────────┬─────────┘
+                          │
+                          ▼
+                 ┌──────────────────┐
+                 │      DOMAIN      │
+                 │                  │
+                 │ Entities         │
+                 │ Business Rules   │
+                 │ Value Objects    │
+                 └────────┬─────────┘
+                          │
+                          ▼
+                 ┌──────────────────┐
+                 │  INFRASTRUCTURE  │
+                 │                  │
+                 │ PostgreSQL       │
+                 │ JPA / Hibernate  │
+                 │ External APIs    │
+                 └──────────────────┘
 ```
 
-I'm particularly interested in **keeping business rules independent from frameworks and infrastructure**.
+The goal isn't to follow architecture patterns for their own sake.
+
+The goal is to make systems where **business rules remain understandable and changes don't unnecessarily ripple through the entire application**.
 
 ---
 
-# 📈 GitHub Activity
+# 📈 GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mfalme1k0&show_icons=true&hide_border=true&theme=transparent&title_color=00D9A5&icon_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170">
+<img src="https://github-readme-stats.vercel.app/api?username=mfalme1k0&show_icons=true&hide_border=true&theme=transparent&title_color=00D9A5&icon_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfalme1k0&layout=compact&hide_border=true&theme=transparent&title_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfalme1k0&layout=compact&hide_border=true&theme=transparent&title_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170"/>
 
 </div>
 
@@ -256,126 +188,116 @@ I'm particularly interested in **keeping business rules independent from framewo
 
 <div align="center">
 
-<img src="./github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/github-contribution-grid-snake-dark.svg"
+  />
+
+<source
+ media="(prefers-color-scheme: light)"
+ srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/github-contribution-grid-snake.svg"
+/>
+
+<img
+ alt="GitHub contribution activity"
+ src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/github-contribution-grid-snake.svg"
+/>
+
+</picture>
 
 </div>
 
 ---
 
-# 🎯 Current Focus
+# 🚀 Currently Focused On
+
+### Backend Engineering
+
+Going deeper into:
+
+* Java
+* Spring Boot
+* PostgreSQL
+* REST API design
+* JPA / Hibernate
+* Testing
+* Clean Architecture
+* Domain-Driven Design
+* System Design
+
+### My current direction
 
 ```text
-                    CURRENTLY BUILDING
-                           │
-                           ▼
-                  ┌─────────────────┐
-                  │    MATIBABU     │
-                  └────────┬────────┘
-                           │
-             ┌─────────────┼─────────────┐
-             ▼             ▼             ▼
-        Java/Spring    PostgreSQL    Architecture
-             │             │             │
-             └─────────────┼─────────────┘
-                           ▼
-                    Backend Engineering
-                           │
-                           ▼
-                    Production Thinking
+WEB DEVELOPMENT
+       │
+       ▼
+ANDROID / KOTLIN
+       │
+       ▼
+JAVA
+       │
+       ▼
+BACKEND DEVELOPMENT
+       │
+       ▼
+SPRING BOOT
+       │
+       ▼
+SOFTWARE ARCHITECTURE
+       │
+       ▼
+SYSTEM DESIGN
 ```
 
-### My current goals
-
-* [x] Learn Java fundamentals
-* [x] Build web applications
-* [x] Build Android applications
-* [x] Work with Kotlin
-* [x] Work with Git & GitHub
-* [ ] Become highly proficient with Spring Boot
-* [ ] Master Clean Architecture
-* [ ] Improve automated testing
-* [ ] Deepen database knowledge
-* [ ] Learn system design
-* [ ] Build production-grade backend systems
-* [ ] Deploy and maintain real-world applications
+I'm deliberately moving toward becoming a stronger **backend/software engineer**, while keeping the broader development experience I've gained from web and mobile projects.
 
 ---
 
-# 🌱 The Journey
+# 💡 Engineering Mindset
 
-```text
-        WEB
-         │
-         ▼
-   HTML / CSS / JS
-         │
-         ▼
-      ANDROID
-         │
-         ▼
-      KOTLIN
-         │
-         ▼
-       JAVA
-         │
-         ▼
-    BACKEND
-         │
-         ▼
-   SPRING BOOT
-         │
-         ▼
-   ARCHITECTURE
-         │
-         ▼
-   SYSTEM DESIGN
-```
+I believe good engineering goes beyond making an application work.
 
-I'm still learning, and that's intentional.
+I'm learning to ask:
 
-Every repository represents a different stage of that journey.
+**Can I understand this code six months from now?**
+
+**Can another developer understand it without me explaining everything?**
+
+**Can the business rules change without rewriting the entire system?**
+
+**Can this behavior be tested independently?**
+
+**What happens when something fails?**
+
+Those questions increasingly influence how I approach my projects.
 
 ---
 
-# 💭 Engineering Philosophy
+# 🤝 Open to Opportunities
 
-> **Don't just make it work. Understand it.**
+I'm interested in opportunities where I can:
 
-Writing software is only part of the job.
+* Contribute to real software products
+* Work alongside experienced developers
+* Grow as a backend engineer
+* Learn production engineering practices
+* Work with Java and Spring Boot
+* Contribute to meaningful technical projects
+* Continue developing my understanding of system architecture
 
-I want to understand:
-
-* Why a particular architecture is appropriate
-* Where business logic should live
-* Why dependencies should point in certain directions
-* How databases affect application design
-* How systems behave when things go wrong
-* How to make code easier for the next developer to understand
-
----
-
-# 🤝 Let's Build Something
-
-I'm interested in:
-
-* Backend development
-* Java & Spring Boot
-* Open-source projects
-* Software architecture
-* Developer communities
-* Interesting technical problems
-* Collaboration and learning
-
-If you're building something interesting, **let's connect.**
+I'm particularly interested in **backend development, software engineering, and collaborative development environments**.
 
 ---
 
 <div align="center">
 
-### `☕ Code • Learn • Build • Improve`
+### Building systems, learning deeply, improving continuously.
+
+**Java • Backend • Architecture • Problem Solving**
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=mfalme1k0\&color=00D9A5\&style=flat-square\&label=PROFILE+VIEWS)
+`mfalme1k0`
 
 </div>
