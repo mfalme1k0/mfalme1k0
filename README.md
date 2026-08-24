@@ -191,17 +191,17 @@ The goal is to make systems where **business rules remain understandable and cha
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake-dark.svg"
   />
 
 <source
  media="(prefers-color-scheme: light)"
- srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/github-contribution-grid-snake.svg"
+ srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
 />
 
 <img
  alt="GitHub contribution activity"
- src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/github-contribution-grid-snake.svg"
+ src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
 />
 
 </picture>
