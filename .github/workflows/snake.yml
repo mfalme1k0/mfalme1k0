@@ -1,43 +1,37 @@
 name: Generate Contribution Snake
 
 on:
-schedule:
-- cron: "0 0 * * *"
-
-workflow_dispatch:
-
-push:
-branches:
-- main
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-generate:
-runs-on: ubuntu-latest
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-```
-permissions:
-  contents: write
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: mfalme1k0
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-steps:
-  - name: Generate contribution snake
-    uses: Platane/snk/svg-only@v3
-    with:
-      github_user_name: mfalme1k0
-      outputs: |
-        dist/github-contribution-grid-snake.svg
-        dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Copy generated snake
+        run: |
+          cp dist/github-contribution-grid-snake.svg .
+          cp dist/github-contribution-grid-snake-dark.svg .
 
-  - name: Checkout repository
-    uses: actions/checkout@v4
-
-  - name: Copy generated snake
-    run: |
-      cp dist/github-contribution-grid-snake.svg .
-      cp dist/github-contribution-grid-snake-dark.svg .
-
-  - name: Commit snake
-    uses: EndBug/add-and-commit@v9
-    with:
-      message: "chore: update contribution snake"
-      default_author: github_actions
-```
+      - name: Commit snake
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update contribution snake"
+          default_author: github_actions
