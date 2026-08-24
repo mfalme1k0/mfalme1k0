@@ -17,6 +17,7 @@ My path started in web and Android development and has moved steadily toward bac
 - 🔭 Currently building **Matibabu** — an offline-first Electronic Medical Records platform
 - 🏗️ Practicing **Clean Architecture, Domain-Driven Design, and SOLID principles**
 - ☕ Working daily with **Java, Spring Boot, PostgreSQL, JPA & Hibernate**
+- 🐍 Also building backend systems with **Python and Django**
 - 🔌 Designing and consuming **RESTful APIs**
 - 📱 Background in **Android (Kotlin)** and **web (JS, HTML, CSS, Bootstrap)**
 - 🐧 Comfortable in Linux environments with Git-based workflows
@@ -65,6 +66,8 @@ These early projects built my frontend foundation and gave me a feel for the sys
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
 **Databases**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
