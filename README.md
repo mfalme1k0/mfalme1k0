@@ -1,195 +1,214 @@
 <div align="center">
 
-# Hi, I'm Fidel Shikokoti 👋
+# Fidel Shikokoti
 
-### Backend Developer focused on Java, Spring Boot & System Architecture
+### Backend Engineer · Java · Spring Boot · Software Architecture
 
-I design and build backend systems with an emphasis on clean structure, maintainability, and long-term readability — not just working code.
+Building backend systems with an interest in **domain modeling, reliable systems, and maintainable architecture**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat-square\&logo=github)](https://github.com/mfalme1k0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/)
 
 </div>
 
 ---
 
-## 👨🏽‍💻 About Me
+## About
 
-My path started in web and Android development and has moved steadily toward backend engineering — Java, Spring Boot, PostgreSQL, and domain-oriented design. These days I care less about shipping *a* feature and more about shipping it in a way that's still understandable a year from now.
+I'm a backend-focused software developer working primarily with **Java and Spring Boot**.
 
-- 🔭 Currently building **Matibabu** — an offline-first Electronic Medical Records platform
-- 🏗️ Practicing **Clean Architecture, Domain-Driven Design, and SOLID principles**
-- ☕ Working daily with **Java, Spring Boot, PostgreSQL, JPA & Hibernate**
-- 🐍 Also building backend systems with **Python and Django**
-- 🔌 Designing and consuming **RESTful APIs**
-- 📱 Background in **Android (Kotlin)** and **web (JS, HTML, CSS, Bootstrap)**
-- 🐧 Comfortable in Linux environments with Git-based workflows
+My earlier work in web and Android development gave me a broad view of application development. I'm now concentrating on backend engineering — particularly **domain-driven design, application architecture, persistence, API design, testing, and system design**.
+
+I enjoy working on problems where the challenge isn't simply making something work, but deciding **where responsibilities belong and how the system should evolve**.
+
+Currently, most of my engineering work is centered around **Ratibu 2.0** and **Matibabu**.
 
 ---
 
-## ⭐ Featured Work
+## Selected Work
 
-### 🏥 Matibabu — Offline-First Electronic Medical Records
-`Java` `Spring Boot` `PostgreSQL` `JPA/Hibernate` `Clean Architecture`
+### Ratibu 2.0
 
-My most invested project. Matibabu is an offline-first EMR system built for healthcare settings where reliable connectivity can't be assumed. It's pushed me past just implementing features into thinking properly about domain modeling, use cases and application services, persistence boundaries, REST API design, PostgreSQL data modeling, UUIDv7 identifiers, and validation and error handling as first-class concerns rather than afterthoughts.
+**Offline-first business management and financial tracking**
 
-It marks a real shift in how I approach engineering — from building individual applications to understanding how larger systems should be designed, organized, and allowed to evolve.
+`Java` · `Spring Boot` · `PostgreSQL` · `DDD` · `Offline-First`
 
-### 🔐 Cypher — Encryption & Decryption in Java
-`Java` `Cryptography`
+Ratibu 2.0 is an ongoing redesign of a small-business management platform.
 
-A hands-on exploration of core cryptographic concepts — built to understand the mechanics behind secure software, not just use a library.
+The system is being designed around domain concepts such as businesses, shops, memberships, workers, clients, bookings, payments, expenses, cash management, and business insights.
 
-### 📱 Ratibu — Android Session Booking App
-`Kotlin` `Android`
+The interesting engineering problems are less about CRUD and more about:
 
-A session-booking Android app, and one of the projects that shaped my early experience with mobile development before I moved toward the backend.
+* Aggregate boundaries and invariants
+* Business-level authorization
+* Financial modeling
+* Offline operations
+* Idempotent synchronization
+* Conflict resolution
+* Derived business intelligence
+* Keeping domain logic independent from infrastructure
 
-### 🌐 Web Projects
-
-| Project | Focus |
-|---|---|
-| **BrighterDaze** | IOC Studio web application |
-| **Nyumbani** | Real-estate website |
-| **PrimeHaven** | HTML/CSS/Bootstrap development |
-| **Sik0-Tech** | Technology website |
-| **Biz** | Web application |
-
-These early projects built my frontend foundation and gave me a feel for the systems I now build the backend for.
+The project is intentionally being developed **architecture-first**: define the domain, record the architectural decision, then implement it.
 
 ---
 
-## 🧰 Technical Skills
+### Matibabu
 
-<div align="center">
+**Offline-first Electronic Medical Records**
 
-**Backend**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+`Java` · `Spring Boot` · `PostgreSQL` · `JPA/Hibernate` · `Flyway` · `MapStruct`
 
-**Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+A collaborative EMR backend designed for healthcare environments where reliable connectivity cannot be assumed.
 
-**Mobile & Web**
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+Working on Matibabu has been a major part of my transition toward backend engineering and has given me practical experience with:
+
+* Domain modeling
+* Application services and use cases
+* Persistence boundaries
+* REST API design
+* PostgreSQL data modeling
+* UUIDv7 identifiers
+* Database migrations
+* Validation and error handling
+* Automated testing
+* Collaborative Git workflows
+
+The project has also reinforced an important lesson:
+
+> Good backend engineering is as much about boundaries and behavior as it is about frameworks.
+
+---
+
+### Cypher
+
+**Encryption & Decryption in Java**
+
+`Java` · `Cryptography`
+
+A hands-on project exploring cryptographic concepts and the mechanics behind encryption and decryption.
+
+Built primarily as a learning exercise to understand the principles rather than treating cryptography as a black box.
+
+---
+
+## Engineering
+
+My current architectural interests include:
+
+```text
+Domain Modeling
+      │
+      ├── Aggregates & Invariants
+      │
+      ▼
+Application Design
+      │
+      ├── Use Cases
+      ├── Application Services
+      └── Dependency Inversion
+      │
+      ▼
+Infrastructure
+      │
+      ├── Persistence
+      ├── PostgreSQL
+      └── External Systems
+      │
+      ▼
+API
+      │
+      └── REST / HTTP
+```
+
+I generally prefer:
+
+* **Explicit domain rules** over anemic CRUD models
+* **Clear boundaries** over accidental coupling
+* **Small, focused abstractions** over abstraction for its own sake
+* **Tests around behavior** rather than implementation details
+* **Database migrations** over implicit schema changes
+* **Application services** for coordinating use cases
+* **Dependency inversion** where it provides a meaningful boundary
+* **Architecture that serves the domain**, rather than architecture as an end in itself
+
+I'm particularly interested in how these principles hold up when systems have to deal with **failure, concurrency, unreliable networks, changing requirements, and growing complexity**.
+
+---
+
+## Technical Stack
+
+**Primary**
+
+`Java` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `JPA/Hibernate` · `Maven`
+
+**Architecture & Engineering**
+
+`Domain-Driven Design` · `Clean Architecture` · `SOLID` · `REST APIs` · `Application Services` · `Repository Pattern` · `Automated Testing`
+
+**Additional**
+
+`Python` · `Django` · `Kotlin` · `Android` · `JavaScript` · `HTML` · `CSS` · `Bootstrap`
 
 **Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-</div>
-
-**Architecture & Engineering:** Clean Architecture · Domain-Driven Design · SOLID · Separation of Concerns · Repository Pattern · Application Services
+`Git` · `GitHub` · `Linux` · `IntelliJ IDEA` · `Postman`
 
 ---
 
-## 🏗️ How I Think About Backend Systems
+## What I'm Learning
 
-Keeping business logic independent from frameworks and infrastructure is the goal that shapes most of my architectural decisions:
+I'm currently going deeper into:
 
-```text
-                    CLIENT
-                      │
-                      ▼
-              ┌───────────────┐
-              │   REST API    │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │  APPLICATION  │
-              │  Use Cases    │
-              │  Services     │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │    DOMAIN     │
-              │  Entities     │
-              │  Business     │
-              │  Rules        │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │ INFRASTRUCTURE│
-              │  PostgreSQL   │
-              │  JPA/Hibernate│
-              │  External APIs│
-              └───────────────┘
-```
+* Java & Spring Boot
+* Backend architecture
+* Domain-Driven Design
+* Database design
+* Distributed systems
+* Offline-first architecture
+* Synchronization and conflict resolution
+* Testing strategies
+* System design
 
-Not architecture for its own sake — architecture so that business rules stay legible and change doesn't ripple unnecessarily through the whole system.
+My direction is increasingly focused on the problems that appear **after the happy path works**.
 
 ---
 
-## 📈 GitHub Stats
+## Engineering Mindset
+
+A few questions I try to ask when designing a system:
+
+> Where does this rule belong?
+
+> What should this component be allowed to know?
+
+> What happens when the network disappears?
+
+> What happens when two operations conflict?
+
+> Can this behavior be tested without starting the entire application?
+
+> If this requirement changes next year, what will have to change with it?
+
+These questions tend to influence my architecture more than any particular framework.
+
+---
+
+## GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mfalme1k0&show_icons=true&hide_border=true&theme=transparent&title_color=00D9A5&icon_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfalme1k0&layout=compact&hide_border=true&theme=transparent&title_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=mfalme1k0&show_icons=true&hide_border=true&theme=transparent&title_color=00D9A5&icon_color=00D9A5&text_color=8B949E&bg_color=00000000" height="160"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfalme1k0&layout=compact&hide_border=true&theme=transparent&title_color=00D9A5&text_color=8B949E&bg_color=00000000" height="160"/>
 
 </div>
 
 ---
 
-## 🐍 Contribution Activity
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution activity" src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg" />
-</picture>
+### Building software that is understandable today — and changeable tomorrow.
 
-</div>
-
----
-
-## 🚀 Where I'm Headed
-
-**Currently deepening:** Java · Spring Boot · PostgreSQL · REST API design · JPA/Hibernate · Testing · Clean Architecture · Domain-Driven Design · System Design
-
-```text
-Web Development → Android/Kotlin → Java → Backend Development
-→ Spring Boot → Software Architecture → System Design
-```
-
-I'm deliberately narrowing toward backend/software engineering, while keeping the broader instincts I picked up building for web and mobile.
-
----
-
-## 💡 Engineering Mindset
-
-The questions I try to hold myself to on every project:
-
-- Can I understand this code six months from now?
-- Can another developer understand it without me explaining everything?
-- Can the business rules change without rewriting the system?
-- Can this behavior be tested independently?
-- What happens when something fails?
-
----
-
-## 🤝 Open to Opportunities
-
-I'm looking for roles where I can contribute to real software products, work alongside experienced engineers, and grow into production-grade backend engineering — especially with Java and Spring Boot, and especially on teams that care about system design as much as I do.
-
-<div align="center">
-
-### Building systems, learning deeply, improving continuously.
-**Java • Backend • Architecture • Problem Solving**
-
-`mfalme1k0`
+`Java` · `Backend Engineering` · `Architecture` · `System Design`
 
 </div>
