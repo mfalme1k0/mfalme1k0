@@ -193,20 +193,28 @@ These questions tend to influence my architecture more than any particular frame
 
 ---
 
-## GitHub Activity
+
+## Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mfalme1k0&show_icons=true&hide_border=true&theme=transparent&title_color=00D9A5&icon_color=00D9A5&text_color=8B949E&bg_color=00000000" height="160"/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub contribution activity"
+    src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
+  />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfalme1k0&layout=compact&hide_border=true&theme=transparent&title_color=00D9A5&text_color=8B949E&bg_color=00000000" height="160"/>
+</picture>
 
 </div>
-
----
-
-<div align="center">
-
 ### Building software that is understandable today — and changeable tomorrow.
 
 `Java` · `Backend Engineering` · `Architecture` · `System Design`
