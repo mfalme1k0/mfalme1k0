@@ -27,30 +27,6 @@ Currently, most of my engineering work is centered around **Ratibu 2.0** and **M
 
 ## Selected Work
 
-### Ratibu 2.0
-
-**Offline-first business management and financial tracking**
-
-`Java` · `Spring Boot` · `PostgreSQL` · `DDD` · `Offline-First`
-
-Ratibu 2.0 is an ongoing redesign of a small-business management platform.
-
-The system is being designed around domain concepts such as businesses, shops, memberships, workers, clients, bookings, payments, expenses, cash management, and business insights.
-
-The interesting engineering problems are less about CRUD and more about:
-
-* Aggregate boundaries and invariants
-* Business-level authorization
-* Financial modeling
-* Offline operations
-* Idempotent synchronization
-* Conflict resolution
-* Derived business intelligence
-* Keeping domain logic independent from infrastructure
-
-The project is intentionally being developed **architecture-first**: define the domain, record the architectural decision, then implement it.
-
----
 
 ### Matibabu
 
