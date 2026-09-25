@@ -1,198 +1,211 @@
-<div align="center">
+Fidel Shikokoti
 
-# Fidel Shikokoti
+Backend Engineer · Java · Spring Boot · Software Architecture
 
-### Backend Engineer · Java · Spring Boot · Software Architecture
+Nairobi, Kenya
 
-Building backend systems with an interest in **domain modeling, reliable systems, and maintainable architecture**.
+Backend-focused software engineer working primarily with Java, Spring Boot, PostgreSQL, and Kotlin, with experience building backend systems, Android applications, and web platforms.
 
-[![GitHub](https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat-square\&logo=github)](https://github.com/mfalme1k0)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/)
+""GitHub" (https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat&logo=github)" (https://github.com/mfalme1k0)
+""LinkedIn" (https://img.shields.io/badge/LinkedIn-Fidel%20Shikokoti-0A66C2?style=flat&logo=linkedin)" (https://www.linkedin.com/)
 
-</div>
+Selected Work
 
----
+"Matibabu" (https://github.com/mfalme1k0/matibabu)
 
-## About
+Offline-first Electronic Medical Records platform
 
-I'm a backend-focused software developer working primarily with **Java and Spring Boot**.
+"Java" "Spring Boot" "JPA/Hibernate" "SQLite" "Flyway" "MapStruct"
 
-My earlier work in web and Android development gave me a broad view of application development. I'm now concentrating on backend engineering — particularly **domain-driven design, application architecture, persistence, API design, testing, and system design**.
+Healthcare information system designed for facilities where network connectivity cannot be assumed.
 
-I enjoy working on problems where the challenge isn't simply making something work, but deciding **where responsibilities belong and how the system should evolve**.
+Current backend capabilities include:
 
-Currently, most of my engineering work is centered around **Ratibu 2.0** and **Matibabu**.
+- Patient and clinical encounter management
+- Medical records and clinical observations
+- Facilities and departments
+- Medicines and ATC mapping
+- Referrals
+- Authentication and role-based authorization
+- Database migrations
+- Automated testing
+- Offline synchronization architecture
 
----
-
-## Selected Work
-
-
-### Matibabu
-
-**Offline-first Electronic Medical Records**
-
-`Java` · `Spring Boot` · `PostgreSQL` · `JPA/Hibernate` · `Flyway` · `MapStruct`
-
-A collaborative EMR backend designed for healthcare environments where reliable connectivity cannot be assumed.
-
-Working on Matibabu has been a major part of my transition toward backend engineering and has given me practical experience with:
-
-* Domain modeling
-* Application services and use cases
-* Persistence boundaries
-* REST API design
-* PostgreSQL data modeling
-* UUIDv7 identifiers
-* Database migrations
-* Validation and error handling
-* Automated testing
-* Collaborative Git workflows
-
-The project has also reinforced an important lesson:
-
-> Good backend engineering is as much about boundaries and behavior as it is about frameworks.
+The system uses a domain-oriented architecture separating domain logic, application services, infrastructure, security, and API concerns.
 
 ---
 
-### Cypher
+"TraceFinder" (https://github.com/mfalme1k0/Trace-finder)
 
-**Encryption & Decryption in Java**
+Java log analysis and security-focused reporting tool
 
-`Java` · `Cryptography`
+"Java" "Maven" "JUnit 5" "CLI"
 
-A hands-on project exploring cryptographic concepts and the mechanics behind encryption and decryption.
+Command-line tool that processes server access logs against a configurable severity rulebook and produces structured reports identifying flagged entries, suspicious IP activity, unknown patterns, and malformed input.
 
-Built primarily as a learning exercise to understand the principles rather than treating cryptography as a black box.
+Engineering concerns include:
+
+- Streaming log processing with bounded memory
+- Strict UTF-8 validation
+- File and line-size limits
+- Defensive handling of malformed and hostile input
+- Configurable severity rules
+- Hidden-character normalization
+- Time-window filtering
+- Structured exception hierarchies
+- Separation of parsing, analysis, and reporting
+- Unit testing across normal and failure paths
+
+The implementation separates file I/O from pure processing logic, making the core components independently testable.
 
 ---
 
-## Engineering
+"Ratibu 2.0" (https://github.com/mfalme1k0/Ratibu2.0)
 
-My current architectural interests include:
+Offline-first business management platform
 
-```text
-Domain Modeling
-      │
-      ├── Aggregates & Invariants
+"Java" "Spring Boot" "PostgreSQL" "Flyway" "Spring Security" "Maven"
+
+A domain-driven redesign of a business management system for small businesses.
+
+The current architecture models:
+
+- Businesses and shops
+- User accounts and memberships
+- Workers and clients
+- Services and bookings
+- Payments and expenses
+- Cash management
+- Financial events
+- Business insights
+- Offline synchronization
+
+The project is currently focused on domain modeling and architectural implementation.
+
+---
+
+"Ratibu" (https://github.com/mfalme1k0/Ratibu)
+
+Android appointment-booking application
+
+"Kotlin" "Jetpack Compose" "Firebase" "WorkManager"
+
+Individual Android application for discovering service providers, booking appointments, managing bookings, real-time chat, and receiving notifications and reminders.
+
+Implemented functionality includes:
+
+- Firebase authentication
+- Provider profiles
+- Appointment management
+- Real-time chat
+- Push notifications
+- Appointment reminders
+- Local caching
+- Background processing
+- Cloudinary image uploads
+- Application analytics
+
+---
+
+"Nyumbani" (https://github.com/mfalme1k0/nyumbani)
+
+Real estate platform
+
+"Next.js" "Express" "PostgreSQL" "JWT" "RBAC"
+
+A dual-sided platform for tenants and property owners or agents.
+
+Includes:
+
+- Express backend API
+- PostgreSQL persistence
+- JWT authentication
+- Role-based access control
+- Next.js frontend
+- Tenant and agent workflows
+
+---
+
+"GreenDay Bank" (https://github.com/mfalme1k0/Greenday_bank)
+
+Java command-line banking application
+
+"Java" "OOP" "BigDecimal"
+
+Command-line banking application implementing authentication, savings accounts, transfers, investment accounts, and investment funds.
+
+The project focuses on object-oriented modeling, financial state management, validation, and accurate monetary calculations.
+
+Engineering
+
+I focus on building systems where responsibilities are explicit and changes remain localized.
+
+API / Transport
       │
       ▼
-Application Design
+Application
       │
-      ├── Use Cases
-      ├── Application Services
-      └── Dependency Inversion
+      ▼
+Domain
       │
       ▼
 Infrastructure
-      │
-      ├── Persistence
-      ├── PostgreSQL
-      └── External Systems
-      │
-      ▼
-API
-      │
-      └── REST / HTTP
-```
 
-I generally prefer:
+Key areas of interest:
 
-* **Explicit domain rules** over anemic CRUD models
-* **Clear boundaries** over accidental coupling
-* **Small, focused abstractions** over abstraction for its own sake
-* **Tests around behavior** rather than implementation details
-* **Database migrations** over implicit schema changes
-* **Application services** for coordinating use cases
-* **Dependency inversion** where it provides a meaningful boundary
-* **Architecture that serves the domain**, rather than architecture as an end in itself
+- Domain modeling
+- Backend architecture
+- REST API design
+- Database design and persistence
+- Application boundaries
+- Validation and error handling
+- Automated testing
+- Offline-first systems
+- Synchronization and distributed-system concerns
 
-I'm particularly interested in how these principles hold up when systems have to deal with **failure, concurrency, unreliable networks, changing requirements, and growing complexity**.
+Technical Stack
 
----
+Languages
 
-## Technical Stack
+"Java" "Kotlin" "SQL" "Python" "TypeScript" "JavaScript"
 
-**Primary**
+Backend
 
-`Java` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `JPA/Hibernate` · `Maven`
+"Spring Boot" "Spring Security" "REST APIs" "JPA/Hibernate" "Maven"
 
-**Architecture & Engineering**
+Databases
 
-`Domain-Driven Design` · `Clean Architecture` · `SOLID` · `REST APIs` · `Application Services` · `Repository Pattern` · `Automated Testing`
+"PostgreSQL" "SQLite" "Firebase Realtime Database"
 
-**Additional**
+Mobile
 
-`Python` · `Django` · `Kotlin` · `Android` · `JavaScript` · `HTML` · `CSS` · `Bootstrap`
+"Android" "Jetpack Compose" "Firebase" "WorkManager"
 
-**Tools**
+Frontend
 
-`Git` · `GitHub` · `Linux` · `IntelliJ IDEA` · `Postman`
+"Next.js" "React" "TypeScript" "Tailwind CSS"
 
----
+Engineering
 
-## What I'm Learning
+"Domain Modeling" "Clean Architecture" "API Design" "Database Design" "Database Migrations" "JUnit" "Git"
 
-I'm currently going deeper into:
+Current Focus
 
-* Java & Spring Boot
-* Backend architecture
-* Domain-Driven Design
-* Database design
-* Distributed systems
-* Offline-first architecture
-* Synchronization and conflict resolution
-* Testing strategies
-* System design
+- Java and Spring Boot backend engineering
+- Domain-driven design and application architecture
+- Database design and persistence
+- REST API development
+- Offline-first architecture
+- Synchronization
+- Automated testing
+- System design
 
-My direction is increasingly focused on the problems that appear **after the happy path works**.
+Connect
 
----
+- GitHub: "github.com/mfalme1k0" (https://github.com/mfalme1k0)
+- Email: mfalmeiko@gmail.com
+- LinkedIn: "LinkedIn" (https://www.linkedin.com/)
 
-## Engineering Mindset
+Contribution Activity
 
-A few questions I try to ask when designing a system:
-
-> Where does this rule belong?
-
-> What should this component be allowed to know?
-
-> What happens when the network disappears?
-
-> What happens when two operations conflict?
-
-> Can this behavior be tested without starting the entire application?
-
-> If this requirement changes next year, what will have to change with it?
-
-These questions tend to influence my architecture more than any particular framework.
-
----
-
-
-## Contribution Activity
-
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="GitHub contribution activity"
-    src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
-  />
-
-</picture>
-
-</div>
-### Building software that is understandable today — and changeable tomorrow.
-
-`Java` · `Backend Engineering` · `Architecture` · `System Design`
-
-</div>
+"GitHub Contribution Snake" (https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
