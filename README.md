@@ -1,239 +1,129 @@
-Fidel Shikokoti
+<div align="center">Fidel Shikokoti
 
 Software Engineer · Backend · Java / Kotlin
 
-I build software with a growing focus on backend engineering, system design, and maintainable application architecture.
+Building backend and application software with a focus on Java, Spring Boot, APIs, databases, testing, and maintainable system design.
 
-My work spans Java and Spring Boot backend systems, Kotlin/Android applications, and web platforms. I'm particularly interested in understanding how software systems are structured — from domain models and business rules to persistence, APIs, security, testing, and offline-first design.
+""GitHub" (https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat-square&logo=github)" (https://github.com/mfalme1k0)
+""LinkedIn" (https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)" (https://www.linkedin.com/in/shikokoti-ikoha)
 
-I'm currently focused on building software that is not only functional, but structured, testable, maintainable, and understandable.
+</div>---
 
----
+About
 
-What I'm About
+I'm a software engineer focused on backend development, primarily working with Java and Spring Boot.
 
-- Building backend systems with Java and Spring Boot
-- Designing domain models and application boundaries
-- Practicing Clean Architecture, SOLID, and separation of concerns
-- Working with PostgreSQL, SQLite, JPA, and Hibernate
-- Designing and consuming REST APIs
-- Writing automated tests and handling failure cases
-- Exploring offline-first and synchronization-oriented systems
-- Building Android applications with Kotlin and Jetpack Compose
-- Working with TypeScript, Next.js, Express, and modern web development
-- Developing in Linux with Git-based engineering workflows
+My experience spans backend systems, Android applications, and web applications. I'm currently concentrating on building reliable software through domain modeling, API design, persistence, testing, and clear application architecture.
+
+I enjoy solving problems where the important part isn't only getting the feature to work, but understanding how the system should be structured so it remains maintainable as requirements grow.
+
+I'm currently looking for opportunities to contribute to real software products, work with experienced engineers, and continue developing as a backend/software engineer.
 
 ---
 
 Featured Work
 
-Matibabu
+🏥 Matibabu
 
-Offline-First Electronic Medical Records Platform
+Offline-first Electronic Medical Records Platform
 
-Java · Spring Boot · PostgreSQL / SQLite · JPA / Hibernate · Spring Security
+"Java" · "Spring Boot" · "Spring Security" · "JPA/Hibernate" · "PostgreSQL" · "SQLite" · "Flyway"
 
-Matibabu is a collaborative healthcare information system designed around the realities of healthcare facilities where network connectivity cannot always be assumed.
+A collaborative healthcare platform designed for environments where reliable internet connectivity cannot always be assumed.
 
-The backend currently covers areas including:
+Current backend work includes:
 
-- Patient management
-- Clinical encounters and medical records
-- Clinical observations, diagnoses, vitals, and treatments
-- Medicines and ATC classification
-- Referrals
-- Facilities and departments
-- Clinician authentication and role-based authorization
-- Local SQLite persistence
-- Database migrations with Flyway
-- Repository abstractions and adapters
-- Automated testing
-- Initial offline synchronization architecture
+* Patient registration and management
+* Clinical encounters and medical records
+* Clinical observations, diagnoses, vitals, and treatments
+* Medicines and referrals
+* Healthcare facilities and departments
+* Authentication and role-based authorization
+* Persistence through repository abstractions
+* Database migrations with Flyway
+* REST API development
+* Automated testing
+* Foundations for offline synchronization
 
-The project uses a layered architecture in which domain rules remain independent from frameworks, databases, and transport mechanisms.
-
-Matibabu has been an important part of my transition from building individual applications toward thinking about larger systems, domain boundaries, persistence, security, synchronization, and long-term maintainability.
+The project has given me practical experience working on a larger codebase with domain logic, application services, persistence, security, APIs, testing, and collaborative Git workflows.
 
 ---
 
-TraceFinder
+🔎 TraceFinder
 
-Java Log Analysis & Security-Focused Reporting
+Java Log Analysis & Security-Focused Reporting Tool
 
-Java · Maven · JUnit
+"Java" · "Maven" · "JUnit 5" · "CLI"
 
-TraceFinder is a command-line log analysis and reporting tool built around defensive processing of structured log data.
+A Java command-line application for parsing logs, analysing activity, applying configurable rules, and generating structured reports.
 
-It includes:
+The project focuses heavily on reliability and defensive input handling.
 
-- Streaming and bounded file processing
-- Strict UTF-8 handling
-- File and line-size limits
-- Configurable severity rules
-- Time-window filtering
-- Structured exception handling
-- Separation between parsing, analysis, and reporting
-- Defensive handling of malformed and hostile input
-- Extensive automated tests
+Key areas include:
 
-The project contains dedicated test fixtures for cases such as malformed UTF-8, delimiter injection, invalid timestamps, oversized input, duplicate fields, and invalid severity rules.
+* Streaming and bounded file processing
+* Strict UTF-8 validation
+* File and line-size limits
+* Configurable severity rules
+* Time-window filtering
+* Structured exception handling
+* Malformed and hostile input handling
+* Separation of parsing, analysis, and reporting
+* Extensive automated tests
 
-This project reflects my interest in robust software behaviour, defensive programming, and understanding what happens when systems receive input that doesn't behave as expected.
-
----
-
-Ratibu 2.0
-
-Offline-First Business Management Platform
-
-Java · Spring Boot · PostgreSQL · JPA · Spring Security · Flyway
-
-Ratibu 2.0 is an architecture-first business management platform for small businesses.
-
-The current work is focused on establishing the domain and application foundations before expanding into client applications.
-
-The domain currently considers concepts such as:
-
-- Businesses and shops
-- Users and memberships
-- Workers and clients
-- Catalogues and services
-- Bookings
-- Payments and expenses
-- Financial events
-- Cash management
-- Business insights
-
-The system is being designed around stable identifiers, idempotent synchronization, aggregate boundaries, and explicit domain rules so that offline-capable clients can be introduced without coupling the core business logic to a particular interface or persistence mechanism.
+TraceFinder reflects my interest in building software that behaves predictably not only with valid input, but also when things go wrong.
 
 ---
 
-Ratibu
+📊 Ratibu 2.0
+
+Offline-first Business Management Platform
+
+"Java" · "Spring Boot" · "PostgreSQL" · "Flyway" · "Spring Security"
+
+An architecture-first platform for small businesses covering business operations, workers, clients, bookings, payments, expenses, financial events, and reporting.
+
+Current work focuses on establishing the backend foundation, including:
+
+* Domain and aggregate modeling
+* Application services
+* Authentication and authorization
+* Financial business rules
+* Database migrations
+* Offline-first synchronization strategy
+* Idempotent operations
+* Conflict-resolution design
+* Architecture Decision Records
+
+---
+
+📱 Ratibu
 
 Android Appointment Booking Application
 
-Kotlin · Jetpack Compose · Firebase
+"Kotlin" · "Jetpack Compose" · "Firebase" · "WorkManager"
 
-Ratibu is an individual Android application for appointment and service-provider management.
+An individual Android application for appointment and session booking.
 
-The application includes:
+Features include authentication, service-provider profiles, appointment management, realtime chat, notifications, reminders, local caching, and network-aware application behaviour.
 
-- User registration and authentication
-- Service-provider profiles
-- Appointment booking
-- Upcoming and current bookings
-- Real-time chat
-- Push notifications
-- Appointment reminders
-- Local caching
-- Network-aware result handling
-- Image uploads
-- Location features
-
-The application follows a repository-oriented architecture connecting Compose UI, ViewModels, repositories, Firebase services, and local state.
-
-It remains an important part of my experience with Kotlin, Android application architecture, asynchronous operations, and mobile product development.
+The project provided hands-on experience with Kotlin, Android application architecture, asynchronous operations, Firebase, local state, and production-style mobile concerns.
 
 ---
 
-Nyumbani
-
-Real Estate Platform
-
-Next.js · TypeScript · Express · PostgreSQL · JWT · RBAC
-
-Nyumbani is a dual-sided real-estate platform designed for tenants and property owners or agents.
-
-The system combines a web frontend with a backend API and includes authentication, role-based access control, property workflows, and PostgreSQL persistence.
-
-The project gave me practical experience working across the boundary between frontend applications, backend APIs, authentication, authorization, and relational data.
-
----
-
-GreenDay Bank
-
-Java Command-Line Banking Application
-
-Java · OOP · BigDecimal
-
-GreenDay Bank is a collaborative Java banking application focused on object-oriented design and financial operations.
-
-The application models:
-
-- User authentication
-- Savings accounts
-- Transfers
-- Investment accounts
-- Investment funds
-- Financial validation
-- Monetary calculations
-
-The project provided practical experience with object-oriented modelling, service boundaries, validation, exceptions, and financial state management.
-
----
-
-Engineering
-
-I'm particularly interested in keeping business logic independent from infrastructure.
-
-A simplified representation of the architecture I practice:
-
-                         CLIENT
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │   REST API   │
-                    └──────┬───────┘
-                           │
-                           ▼
-                 ┌──────────────────┐
-                 │   APPLICATION    │
-                 │                  │
-                 │    Use Cases     │
-                 │    Services      │
-                 └────────┬─────────┘
-                          │
-                          ▼
-                 ┌──────────────────┐
-                 │      DOMAIN      │
-                 │                  │
-                 │ Entities         │
-                 │ Business Rules   │
-                 │ Value Objects    │
-                 └────────┬─────────┘
-                          │
-                          ▼
-                 ┌──────────────────┐
-                 │  INFRASTRUCTURE  │
-                 │                  │
-                 │ PostgreSQL       │
-                 │ JPA / Hibernate  │
-                 │ External APIs    │
-                 └──────────────────┘
-
-The purpose isn't to apply architecture patterns for their own sake.
-
-The goal is to make systems where business rules remain understandable, boundaries are explicit, and changes do not unnecessarily ripple through the entire application.
-
----
-
-Technical Stack
+Technical Skills
 
 Backend
 
-"Java" "Spring Boot" "Spring MVC" "Spring Data JPA" "Hibernate" "REST APIs" "Maven"
+"Java" "Spring Boot" "Spring Security" "Spring Data JPA" "Hibernate" "REST APIs" "Maven"
 
-Architecture & Engineering
+Software Engineering
 
-"Clean Architecture" "Domain Modeling" "SOLID" "Separation of Concerns" "Repository Pattern" "Application Services"
+"OOP" "Domain Modeling" "Clean Architecture" "SOLID" "Application Services" "Repository Pattern" "API Design" "Automated Testing"
 
 Databases
 
-"PostgreSQL" "SQLite" "SQL" "JPA" "Hibernate" "Flyway"
-
-Security
-
-"Spring Security" "JWT" "Authentication" "Authorization" "RBAC"
+"PostgreSQL" "SQLite" "SQL" "Database Design" "Flyway"
 
 Mobile
 
@@ -241,126 +131,118 @@ Mobile
 
 Web
 
-"TypeScript" "Next.js" "React" "Express" "HTML" "CSS"
+"TypeScript" "JavaScript" "Next.js" "Express" "HTML" "CSS" "Bootstrap"
 
-Testing & Tools
+Tools
 
-"JUnit 5" "Mockito" "Git" "GitHub" "IntelliJ IDEA" "Linux" "Postman"
+"Git" "GitHub" "Linux" "IntelliJ IDEA" "Postman"
 
 ---
 
-GitHub
+Engineering Focus
 
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=mfalme1k0&show_icons=true&hide_border=true&theme=transparent&title_color=00D9A5&icon_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfalme1k0&layout=compact&hide_border=true&theme=transparent&title_color=00D9A5&text_color=8B949E&bg_color=00000000" height="170"/></div>---
+My current development focus is:
+
+Java
+  │
+  ▼
+Spring Boot
+  │
+  ▼
+Backend Development
+  │
+  ├── APIs
+  ├── Databases
+  ├── Security
+  └── Testing
+  │
+  ▼
+Domain Modeling
+  │
+  ▼
+System Design
+
+I'm particularly interested in backend systems where business rules, data, reliability, and system boundaries matter.
+
+I'm also actively developing my understanding of:
+
+* Distributed systems
+* Offline-first architecture
+* Synchronization and conflict resolution
+* Database design
+* Testing strategies
+* System design
+
+---
+
+How I Approach Engineering
+
+I try to understand the problem before reaching for an implementation.
+
+Questions I regularly ask include:
+
+«Where does this business rule belong?»
+
+«What should this component be responsible for?»
+
+«What happens when the network disappears?»
+
+«What happens when input is malformed?»
+
+«Can this behaviour be tested independently?»
+
+«If the requirements change, how much of the system needs to change?»
+
+This approach has increasingly shaped how I design and implement software.
+
+---
+
+Other Projects
+
+I've also built projects across web, mobile, and application development, including:
+
+* GreenDay Bank — Java command-line banking application
+* Nyumbani — real-estate platform using Next.js, Express, PostgreSQL, and JWT authentication
+* Ratibu — Kotlin/Android appointment-booking application
+
+My earlier web and Android work gave me a broad application-development foundation, while my recent projects have increasingly moved toward backend engineering and system design.
+
+---
+
+Open to Opportunities
+
+I'm interested in opportunities involving:
+
+* Backend development
+* Java / Spring Boot
+* API development
+* Database-driven applications
+* Software engineering
+* System design and architecture
+* Collaborative engineering teams
+
+I'm particularly interested in environments where I can contribute to production software, learn from experienced engineers, and take on increasingly complex engineering problems.
+
+---
 
 Contribution Activity
 
 <div align="center"><picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./github-contribution-grid-snake-dark.svg"
-  /><source
-media="(prefers-color-scheme: light)"
-srcset="./github-contribution-grid-snake.svg"
-/>
+    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub contribution activity"
+    src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg"
+  /></picture></div>---
 
-<img
-alt="GitHub contribution activity"
-src="./github-contribution-grid-snake.svg"
-/>
-</picture>
+<div align="center">Building software, learning deeply, and solving increasingly complex problems.
 
-</div>---
-
-Currently Focused On
-
-Backend Engineering
-
-Going deeper into:
-
-- Java
-- Spring Boot
-- PostgreSQL
-- REST API design
-- JPA / Hibernate
-- Testing
-- Domain modeling
-- Clean Architecture
-- System Design
-- Offline-first systems
-
-My Current Direction
-
-WEB DEVELOPMENT
-       │
-       ▼
-ANDROID / KOTLIN
-       │
-       ▼
-JAVA
-       │
-       ▼
-BACKEND DEVELOPMENT
-       │
-       ▼
-SPRING BOOT
-       │
-       ▼
-SOFTWARE ARCHITECTURE
-       │
-       ▼
-SYSTEM DESIGN
-
-I'm deliberately moving toward becoming a stronger backend/software engineer, while retaining the broader development experience I've gained through web and mobile projects.
-
----
-
-Engineering Mindset
-
-I believe good engineering goes beyond making an application work.
-
-I'm learning to ask:
-
-Can I understand this code six months from now?
-
-Can another developer understand it without me explaining everything?
-
-Can business rules change without rewriting the entire system?
-
-Can this behaviour be tested independently?
-
-What happens when something fails?
-
-Those questions increasingly influence how I approach my projects.
-
----
-
-Open to Opportunities
-
-I'm interested in opportunities where I can:
-
-- Contribute to real software products
-- Work alongside experienced developers
-- Grow as a backend engineer
-- Learn production engineering practices
-- Work with Java and Spring Boot
-- Contribute to meaningful technical projects
-- Continue developing my understanding of system architecture
-
-I'm particularly interested in backend development, software engineering, and collaborative engineering environments.
-
----
-
-<div align="center">Building systems, learning deeply, improving continuously.
-
-Java · Backend · Architecture · Problem Solving
-
-<br><a href="https://github.com/mfalme1k0">
-  <img src="https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat&logo=github" alt="GitHub">
-</a><a href="https://www.linkedin.com/in/shikokoti-ikoha">
-  <img src="https://img.shields.io/badge/LinkedIn-Fidel%20Shikokoti-0A66C2?style=flat&logo=linkedin" alt="LinkedIn">
-</a><br><br>
-
-"mfalme1k0"
+"Java" · "Backend Engineering" · "Kotlin" · "System Design"
 
 </div>
