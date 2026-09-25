@@ -1,10 +1,10 @@
 Fidel Shikokoti
 
-Backend Engineer · Java · Spring Boot · Software Architecture
+Software Engineer · Backend · Java / Kotlin
 
 Nairobi, Kenya
 
-Backend-focused software engineer working primarily with Java, Spring Boot, PostgreSQL, and Kotlin, with experience building backend systems, Android applications, and web platforms.
+Software engineer focused on backend systems, application architecture, and reliable software. Primarily working with Java and Spring Boot, with additional experience building Android applications with Kotlin and web platforms with TypeScript.
 
 ""GitHub" (https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat&logo=github)" (https://github.com/mfalme1k0)
 ""LinkedIn" (https://img.shields.io/badge/LinkedIn-Fidel%20Shikokoti-0A66C2?style=flat&logo=linkedin)" (https://www.linkedin.com/)
@@ -56,7 +56,7 @@ Engineering concerns include:
 - Separation of parsing, analysis, and reporting
 - Unit testing across normal and failure paths
 
-The implementation separates file I/O from pure processing logic, making the core components independently testable.
+The implementation separates file I/O from processing logic, making core components independently testable.
 
 ---
 
@@ -202,9 +202,9 @@ Current Focus
 
 Connect
 
-- GitHub: "github.com/mfalme1k0" (https://github.com/mfalme1k0)
+- "GitHub" (https://github.com/mfalme1k0)
 - Email: mfalmeiko@gmail.com
-- LinkedIn: "LinkedIn" (https://www.linkedin.com/)
+- "LinkedIn" (https://www.linkedin.com/)
 
 Contribution Activity
 
