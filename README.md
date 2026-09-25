@@ -4,11 +4,17 @@ Software Engineer · Backend · Java / Kotlin
 
 Building backend and application software with a focus on Java, Spring Boot, APIs, databases, testing, and maintainable system design.
 
-""GitHub" (https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat-square&logo=github)" (https://github.com/mfalme1k0)
-""LinkedIn" (https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)" (https://www.linkedin.com/in/shikokoti-ikoha)
+<div align="center">
 
-</div>---
+<a href="https://github.com/mfalme1k0">
+  <img src="https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat-square&logo=github" alt="GitHub">
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/shikokoti-ikoha">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
 
+</div>
 About
 
 I'm a software engineer focused on backend development, primarily working with Java and Spring Boot.
@@ -23,7 +29,7 @@ I'm currently looking for opportunities to contribute to real software products,
 
 Featured Work
 
-🏥 Matibabu
+Matibabu
 
 Offline-first Electronic Medical Records Platform
 
@@ -49,7 +55,7 @@ The project has given me practical experience working on a larger codebase with 
 
 ---
 
-🔎 TraceFinder
+TraceFinder
 
 Java Log Analysis & Security-Focused Reporting Tool
 
@@ -75,7 +81,7 @@ TraceFinder reflects my interest in building software that behaves predictably n
 
 ---
 
-📊 Ratibu 2.0
+Ratibu 2.0
 
 Offline-first Business Management Platform
 
@@ -96,8 +102,7 @@ Current work focuses on establishing the backend foundation, including:
 * Architecture Decision Records
 
 ---
-
-📱 Ratibu
+Ratibu
 
 Android Appointment Booking Application
 
