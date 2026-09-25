@@ -125,7 +125,7 @@ This approach has increasingly shaped how I design and implement software.
 
 - **GreenDay Bank** — Java command-line banking application
 - **Nyumbani** — real-estate platform using Next.js, Express, PostgreSQL, and JWT authentication
-- **Ratibu** — Kotlin/Android appointment-booking application
+
 
 My earlier web and Android work gave me a broad application-development foundation, while my recent projects have increasingly moved toward backend engineering and system design.
 
