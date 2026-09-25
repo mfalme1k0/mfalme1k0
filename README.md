@@ -1,15 +1,17 @@
 Fidel Shikokoti
 
-Software Engineer · Backend · Java / Kotlin
+Backend Engineer · Java · Spring Boot · Software Architecture
 
 Nairobi, Kenya
 
-Software engineer focused on backend systems, application architecture, and reliable software. Primarily working with Java and Spring Boot, with additional experience building Android applications with Kotlin and web platforms with TypeScript.
+Backend-focused software engineer working primarily with Java, Spring Boot, PostgreSQL, and Kotlin, with experience building backend systems, Android applications, and web platforms.
 
-""GitHub" (https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat&logo=github)" (https://github.com/mfalme1k0)
-""LinkedIn" (https://img.shields.io/badge/LinkedIn-Fidel%20Shikokoti-0A66C2?style=flat&logo=linkedin)" (https://www.linkedin.com/)
-
-Selected Work
+<a href="https://github.com/mfalme1k0">
+  <img src="https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat&logo=github" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/shikokoti-ikoha">
+  <img src="https://img.shields.io/badge/LinkedIn-Fidel%20Shikokoti-0A66C2?style=flat&logo=linkedin" alt="LinkedIn">
+</a>Selected Work
 
 "Matibabu" (https://github.com/mfalme1k0/matibabu)
 
@@ -41,22 +43,19 @@ Java log analysis and security-focused reporting tool
 
 "Java" "Maven" "JUnit 5" "CLI"
 
-Command-line tool that processes server access logs against a configurable severity rulebook and produces structured reports identifying flagged entries, suspicious IP activity, unknown patterns, and malformed input.
+Command-line tool for processing server access logs against configurable severity rules and producing structured reports.
 
-Engineering concerns include:
+The project focuses on:
 
 - Streaming log processing with bounded memory
 - Strict UTF-8 validation
 - File and line-size limits
 - Defensive handling of malformed and hostile input
 - Configurable severity rules
-- Hidden-character normalization
 - Time-window filtering
 - Structured exception hierarchies
 - Separation of parsing, analysis, and reporting
-- Unit testing across normal and failure paths
-
-The implementation separates file I/O from processing logic, making core components independently testable.
+- Extensive unit testing
 
 ---
 
@@ -68,7 +67,7 @@ Offline-first business management platform
 
 A domain-driven redesign of a business management system for small businesses.
 
-The current architecture models:
+The architecture models:
 
 - Businesses and shops
 - User accounts and memberships
@@ -202,9 +201,12 @@ Current Focus
 
 Connect
 
-- "GitHub" (https://github.com/mfalme1k0)
-- Email: mfalmeiko@gmail.com
-- "LinkedIn" (https://www.linkedin.com/)
+<a href="https://github.com/mfalme1k0">
+  <img src="https://img.shields.io/badge/GitHub-mfalme1k0-181717?style=flat&logo=github" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/shikokoti-ikoha">
+  <img src="https://img.shields.io/badge/LinkedIn-Fidel%20Shikokoti-0A66C2?style=flat&logo=linkedin" alt="LinkedIn">
+</a>Email: mfalmeiko@gmail.com
 
 Contribution Activity
 
