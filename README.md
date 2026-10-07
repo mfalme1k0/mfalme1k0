@@ -5,7 +5,7 @@
 I build backend systems where the rules, the data, and the failure cases matter. I came into software from restaurant kitchens and coffee bars, and that background still shapes how I work: stay calm when things break, understand the person on the other end, and make the system hold up when conditions aren't ideal.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shikokoti--ikoha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shikokoti-ikoha)
-📧 **your.email@example.com** · 📍 Nairobi · Open to remote and on-site roles
+📧 **mfalmeikoha@gmail.com** · 📍 Nairobi · Open to remote and on-site roles
 
 ---
 
