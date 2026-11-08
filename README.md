@@ -109,4 +109,8 @@ Backend and software developer roles, especially Java and Spring Boot, on teams 
 
 ## Contribution Activity
 
-[![GitHub contribution activity](https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg)](https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/main/github-contribution-grid-snake.svg)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/mfalme1k0/mfalme1k0/output/pacman-contribution-graph.svg">
+</picture>
